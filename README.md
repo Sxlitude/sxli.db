@@ -11,9 +11,9 @@ npm install sxli.db
 - initial code
 ```js
 const Database = require('sxli.db');
-const db = new Database(url);
+const db = new Database('url');
 ```
-Talking about `url`, you may leave it blank if you wish, but if it doesn't work then consider visiting [this repo](https://github.com/Sxlitude/database) to get your own URL !
+Talking about `url`, you may remove it if you wish, but if it doesn't work then consider visiting [this repo](https://github.com/Sxlitude/database) to get your own URL !
 
 - setting a key
 ```js
