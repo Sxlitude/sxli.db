@@ -1,0 +1,6 @@
+node_modules
+.gitignore
+.replit
+replit.nix
+.cache/replit/nix/env.json
+.upm/store.json
