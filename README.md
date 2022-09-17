@@ -1,7 +1,7 @@
 ### A Database Library
 - Uses Caching for now; don't use on personal projects.
 - My another github repo is the base of this lib
-- Click here to see my own database repo.
+- [Click here to see](https://github.com/Sxlitude/database) the raw database repo.
 
 #### Getting Started
 - installing the database
@@ -11,9 +11,9 @@ npm install sxli.db
 - initial code
 ```js
 const Database = require('sxli.db');
-const db = new Database();
+const db = new Database(url);
 ```
-Remember the library uses async/await so you need to either run the next code in async function or use `.then` method for response. I tried to make it similar to replitDB.
+Talking about `url`, you may leave it blank if you wish, but if it doesn't work then consider visiting [this repo](https://github.com/Sxlitude/database) to get your own URL !
 
 - setting a key
 ```js
