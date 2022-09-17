@@ -1,15 +1,25 @@
 {
-  "name": "ffffff",
-  "version": "1.0.0",
-  "description": "",
+  "name": "sxli.db",
+  "version": "1.0.2",
+  "description": "a database library",
   "main": "index.js",
+  "dependencies": {
+    "centra": "^2.5.0",
+    "phin": "^3.6.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "sxlitude",
-  "license": "ISC",
-  "dependencies": {
-    "phin": "^3.6.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sxlitude/sxli.db.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sxlitude/sxli.db/issues"
+  },
+  "homepage": "https://github.com/Sxlitude/sxli.db#readme"
 }
