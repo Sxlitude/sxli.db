@@ -16,7 +16,7 @@ const db = new Database();
 
 /* But If you have a custom URL */
 const Database = require('sxli.db');
-const db = new Database('url);
+const db = new Database('url');
 ```
 Talking about `url`, you may remove it if you wish, but if it doesn't work then consider visiting [this repo](https://github.com/Sxlitude/database) to get your own URL !
 
